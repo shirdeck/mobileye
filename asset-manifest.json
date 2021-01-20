@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/mobileye/static/css/main.54e1232b.chunk.css",
+    "main.js": "/mobileye/static/js/main.dcf6d2a8.chunk.js",
+    "main.js.map": "/mobileye/static/js/main.dcf6d2a8.chunk.js.map",
+    "runtime-main.js": "/mobileye/static/js/runtime-main.5f752e38.js",
+    "runtime-main.js.map": "/mobileye/static/js/runtime-main.5f752e38.js.map",
+    "static/js/2.8f382730.chunk.js": "/mobileye/static/js/2.8f382730.chunk.js",
+    "static/js/2.8f382730.chunk.js.map": "/mobileye/static/js/2.8f382730.chunk.js.map",
+    "static/js/3.250fd351.chunk.js": "/mobileye/static/js/3.250fd351.chunk.js",
+    "static/js/3.250fd351.chunk.js.map": "/mobileye/static/js/3.250fd351.chunk.js.map",
+    "index.html": "/mobileye/index.html",
+    "static/css/main.54e1232b.chunk.css.map": "/mobileye/static/css/main.54e1232b.chunk.css.map",
+    "static/js/2.8f382730.chunk.js.LICENSE.txt": "/mobileye/static/js/2.8f382730.chunk.js.LICENSE.txt",
+    "static/media/amnon.9bfefb4e.png": "/mobileye/static/media/amnon.9bfefb4e.png",
+    "static/media/img_1.dc09f469.jpg": "/mobileye/static/media/img_1.dc09f469.jpg",
+    "static/media/App.css": "/mobileye/static/media/top_bkg.28f9be6c.jpg",
+    "static/media/top_bkg_fill.71fa708c.png": "/mobileye/static/media/top_bkg_fill.71fa708c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f752e38.js",
+    "static/js/2.8f382730.chunk.js",
+    "static/css/main.54e1232b.chunk.css",
+    "static/js/main.dcf6d2a8.chunk.js"
+  ]
+}
