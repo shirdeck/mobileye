@@ -7,6 +7,7 @@ $turquoize: #16d6fb;
 * {
   padding: 0;
   margin: 0;
+  user-select: none;
 }
 
 .App {
@@ -48,6 +49,7 @@ $turquoize: #16d6fb;
           }
           a {
             text-decoration: none;
+            color: white;
             &:visited {
               color: white;
             }

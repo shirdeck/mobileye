@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Hind+Siliguri:wght@400;500;600;800&display=swap");
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  user-select: none; }
 
 .App {
   background-image: url(./images/top_bkg.jpg);
@@ -38,7 +39,8 @@
           .App .hero .header ul li:active {
             transform: scale(1.2); }
           .App .hero .header ul li a {
-            text-decoration: none; }
+            text-decoration: none;
+            color: white; }
             .App .hero .header ul li a:visited {
               color: white; }
     .App .hero .headline {
