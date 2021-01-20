@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Hind+Siliguri:wght@400;500;600;800&display=swap");
+
+$hind: "Hind Siliguri", sans-serif;
+$anton: "Anton", sans-serif;
+$turquoize: #16d6fb;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  background-image: url(./images/top_bkg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .hero {
+    height: 100vh;
+    position: relative;
+    .bg-fill {
+      position: absolute;
+      z-index: 1;
+      width: 50%;
+    }
+    .header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1% 15%;
+      img {
+        width: 13%;
+        height: 13%;
+      }
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style: none;
+        li {
+          padding: 10%;
+          color: white;
+          cursor: pointer;
+          &:active {
+            transform: scale(1.2);
+          }
+          a {
+            text-decoration: none;
+            &:visited {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+    .headline {
+      text-align: center;
+      position: relative;
+      z-index: 2;
+      span {
+        text-transform: uppercase;
+        font-size: 6vw;
+        font-family: $anton;
+        color: white;
+        &:first-of-type {
+          color: $turquoize;
+        }
+      }
+      p {
+        color: white;
+        font-family: $hind;
+        font-weight: 500;
+        font-size: 1.5vw;
+        &:nth-of-type(2) {
+          font-size: 1.2vw;
+        }
+      }
+    }
+    .countdown {
+      position: relative;
+      z-index: 2;
+      .countdown-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 1%;
+        margin-bottom: 25px;
+        color: white;
+        font-size: 1.3vw;
+        text-transform: uppercase;
+        .time-section {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          font-weight: 700;
+          &:nth-child(4) > div {
+            border: none;
+          }
+          &:nth-child(4) > small {
+            align-self: flex-start;
+            margin-left: 35px;
+          }
+          .time {
+            font-family: $hind;
+            font-size: 6.5vw;
+            padding: 0 25px;
+            line-height: 70%;
+            border-right: 1px solid white;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+    .details-box {
+      width: 60%;
+      margin: 0 auto;
+      height: 15%;
+      background-color: rgba(255, 255, 255, 0.2);
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      .title {
+        color: whitesmoke;
+        width: 40%;
+        opacity: 1;
+        font-family: $anton;
+        font-size: 2.2vw;
+        text-transform: uppercase;
+        padding: 0 20px;
+        z-index: 2;
+      }
+      .content {
+        color: white;
+        opacity: 1;
+        z-index: 3;
+        font-family: $hind;
+        line-height: 3vh;
+        font-size: 1.2vw;
+        font-weight: 500;
+        .sub-content {
+          font-weight: 800;
+        }
+        hr {
+          margin: 2% 0;
+          width: 98%;
+        }
+      }
+    }
+    .button {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $turquoize;
+      width: 15%;
+      margin: 2.5% auto;
+      height: 5%;
+      border-radius: 18px;
+      text-transform: uppercase;
+      color: #2c4970;
+      font-family: $hind;
+      font-size: 1.7vw;
+      font-weight: 800;
+      z-index: 3;
+      cursor: pointer;
+      &:active {
+        transform: scale(0.98);
+      }
+    }
+  }
+  .countrySelectorWrap {
+    .countryselector {
+      height: 30px;
+      width: 56%;
+      margin: 0 10px 25px;
+      padding: 0 10px;
+      border-radius: 1px;
+      border: 1px solid #2e6e9f;
+      font-family: "Hind Siliguri", sans-serif;
+      color: #777777;
+    }
+  }
+
+  #safety > div > div {
+    flex-direction: row-reverse;
+  }
+  #safety > div > div > div {
+    &:last-of-type {
+      margin-right: 100px;
+    }
+    }
+
+    .footer {
+      height: 70px;
+      color: white;
+      background-color:#162838;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+}
+
+@media screen and (max-height: 700) {
+  .App {
+    .hero {
+      height: 200px;
+    }
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .App {
+    .hero {
+      .header {
+        img {
+          width: 150px;
+          z-index: 3;
+        }
+        }
+        .headline {
+      margin: 0 auto;
+          span {
+            font-size: 74px;
+          }
+          p {
+            font-size: 22px;
+            &:nth-of-type(2) {
+              font-size: 20px;
+            }
+          }
+      }
+      .countdown {
+        .countdown-wrapper {
+          .time-section {
+            font-size: 40px;
+            .time {
+              font-size: 120px;
+            }
+          }
+        }
+      }
+      .details-box {
+        width: 70%;
+        justify-content: space-between;
+        .title {
+          font-size: 30px;
+          padding: 0 20px;
+          width: 60%;
+        }
+        .content {
+          padding: 0 20px 0 0;
+          line-height: 1.5;
+          font-size: 14px;
+        }
+      }
+      .button {
+        width: 35%;
+        height: 70px;
+        line-height: 70px;
+        font-size: 35px;
+        margin: 5.5% auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 885px) {
+  .App {
+    .hero {
+      .bg-fill {
+        display: none;
+      }
+      .header {
+        img {
+          width: 140px;
+        }
+        }
+        .headline {
+          width: 460px;
+          span {
+            font-size: 80px;
+          }
+          p {
+            font-size: 18px;
+            &:nth-of-type(2) {
+              font-size: 18px;
+            }
+          }
+      }
+      .countdown {
+        .countdown-wrapper {
+          margin-top: 40px;
+        }
+      }
+      .details-box {
+        width: 72%;
+        .title {
+          width: 75%;
+        }
+      }
+      .button {
+        width: 40%;
+      }
+    }
+    #safety > div > div > div {
+      &:last-of-type {
+        margin-right: 0;
+      }
+      }
+  }
+
+    #safety > div > div > div > div{
+      &:last-of-type {
+        margin: 0 auto;
+      }
+      }
+}
+
+@media screen and (max-width: 725px) {
+  .App {
+    .hero {
+      .countdown {
+        .countdown-wrapper {
+          .time-section {
+            font-size: 20px;
+            .time {
+              font-size: 80px;
+            }
+          }
+        }
+      }
+      .details-box {
+        width: 80%;
+        .title {
+          width: 100%;
+        }
+        .content {
+          font-size: 12px;
+        }
+      }
+      .button {
+        width: 45%;
+        font-size: 28px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .App {
+    .hero {
+      .header {
+        justify-content: space-around;
+        padding: 2% 0;
+        img {
+          width: 80px;
+        }
+        }
+        .headline {
+          width: 360px;
+          span {
+            font-size: 60px;
+          }
+          p {
+            font-size: 16px;
+            &:nth-of-type(2) {
+              font-size: 14px;
+            }
+          }
+      }
+      .countdown {
+        display: flex;
+        justify-content: center;
+        .countdown-wrapper {
+          .time-section {
+            font-size: 14px;
+            &:nth-child(4) > small {
+              align-self: flex-start;
+              margin-left: 20px;
+            }
+            .time {
+              font-size: 40px;
+            }
+          }
+        }
+      }
+      .details-box {
+        width: 80%;
+        height: 25%;
+        .title {
+          font-size: 7vw;
+          width: 100%;
+        }
+        .content {
+          font-size: 3.5vw;
+          line-height: 1.2;
+        }
+      }
+      .button {
+        width: 50%;
+        font-size: 6vw;
+      }
+    }
+  }
+  .countrySelectorWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #safety > div > div > div > div{
+    &:last-of-type {
+      width: 100%;
+    }
+    }
+}
