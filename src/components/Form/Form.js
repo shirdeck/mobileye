@@ -15,10 +15,11 @@ const FormWrapper = () => {
         <Header>register now</Header>
         <FormBody>
           <Input type="text" placeholder="First Name*" required/>
-          <Input type="text" placeholder="Job Title"/>
           <Input type="text" placeholder="Last Name*" required/>
-          <Input type="text" placeholder="Company Name"/>
           <Input type="text" placeholder="Email*" required/>
+          <CountrySelector/>
+          <Input type="text" placeholder="Job Title"/>
+          <Input type="text" placeholder="Company Name"/>
             <Select>
                 <option value="" selected disabled>What Best Describes You?</option>
                 <option value="entrepreneur">Entrepreneur</option>
@@ -27,7 +28,6 @@ const FormWrapper = () => {
                 <option value="tech-enthusiast">Tech Enthusiast</option>
                 <option value="other">Other</option>
             </Select>
-        <CountrySelector/>
         <SubscriptionWrapper>
             <SubCheckbox type="checkbox" value="subscribe"/>
             <Disclaimer>Yes, I would like to subscribe to stay connected to the latest Mobileye technologies and industry trends by email and telephone. I can unsubscribe at any time.</Disclaimer>

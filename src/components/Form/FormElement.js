@@ -31,7 +31,8 @@ text-transform: uppercase;
 `
 
 export const FormBody = styled.div`
-width: 85%;
+width: 95%;
+height: 60%;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
@@ -43,7 +44,7 @@ justify-content: flex-start;
 
 export const Input = styled.input`
 height: 30px;
-width: 39%;
+width: 40%;
 margin: 0 10px 25px;
 padding: 0 10px;
 border-radius: 1px;
@@ -58,7 +59,7 @@ color: #777777;
 
 export const Select = styled.select`
 height: 30px;
-width: 44%;
+width: 40%;
 margin: 0 10px 25px;
 padding: 0 10px;
 border-radius: 1px;

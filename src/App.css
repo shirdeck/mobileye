@@ -144,15 +144,17 @@
         color: #2c4970; }
       .App .hero .button:active {
         transform: scale(0.98); }
-  .App .countrySelectorWrap .countryselector {
-    height: 30px;
-    width: 56%;
-    margin: 0 10px 25px;
-    padding: 0 10px;
-    border-radius: 1px;
-    border: 1px solid #2e6e9f;
-    font-family: "Hind Siliguri", sans-serif;
-    color: #777777; }
+  .App .countrySelectorWrap {
+    width: 50%; }
+    .App .countrySelectorWrap .countryselector {
+      height: 30px;
+      width: 56%;
+      margin: 0 10px 25px;
+      padding: 0 10px;
+      border-radius: 1px;
+      border: 1px solid #2e6e9f;
+      font-family: "Hind Siliguri", sans-serif;
+      color: #777777; }
   .App #safety > div > div {
     flex-direction: row-reverse; }
   .App #safety > div > div > div:last-of-type {
