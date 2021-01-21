@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mobileye/static/css/main.f9e29447.chunk.css",
+    "main.css": "/mobileye/static/css/main.6ba7f805.chunk.css",
     "main.js": "/mobileye/static/js/main.ed25ecaa.chunk.js",
     "main.js.map": "/mobileye/static/js/main.ed25ecaa.chunk.js.map",
     "runtime-main.js": "/mobileye/static/js/runtime-main.dd5dfe08.js",
@@ -10,7 +10,7 @@
     "static/js/3.af2a1372.chunk.js": "/mobileye/static/js/3.af2a1372.chunk.js",
     "static/js/3.af2a1372.chunk.js.map": "/mobileye/static/js/3.af2a1372.chunk.js.map",
     "index.html": "/mobileye/index.html",
-    "static/css/main.f9e29447.chunk.css.map": "/mobileye/static/css/main.f9e29447.chunk.css.map",
+    "static/css/main.6ba7f805.chunk.css.map": "/mobileye/static/css/main.6ba7f805.chunk.css.map",
     "static/js/2.1ef7a26f.chunk.js.LICENSE.txt": "/mobileye/static/js/2.1ef7a26f.chunk.js.LICENSE.txt",
     "static/media/amnon.9bfefb4e.png": "/mobileye/static/media/amnon.9bfefb4e.png",
     "static/media/img_1.dc09f469.jpg": "/mobileye/static/media/img_1.dc09f469.jpg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.dd5dfe08.js",
     "static/js/2.1ef7a26f.chunk.js",
-    "static/css/main.f9e29447.chunk.css",
+    "static/css/main.6ba7f805.chunk.css",
     "static/js/main.ed25ecaa.chunk.js"
   ]
 }
