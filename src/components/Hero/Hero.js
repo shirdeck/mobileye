@@ -1,3 +1,7 @@
+//=============================================================================
+// Hero Component
+//=============================================================================
+
 import React from "react";
 import Logo from "../../images/logo_white.png";
 import BgFill from "../../images/top_bkg_fill.png";
@@ -62,7 +66,7 @@ const Hero = () => {
         </div>
       </div>
     <div className="button register">
-        <span>register now</span>
+        <a href="/">register now</a>
     </div>
     </div>
   );

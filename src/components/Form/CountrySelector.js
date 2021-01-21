@@ -1,27 +1,27 @@
-import React, { Component } from 'react';
+//=============================================================================
+// Country Selector Component
+//=============================================================================
+
+import React, { useState } from 'react';
 import { CountryDropdown } from 'react-country-region-selector';
 
+const CountrySelector = () => {
+  const [country, setCountry] = useState('');
 
-class CountrySelector extends Component {
-  constructor (props) {
-    super(props);
-    this.state = { country: '' };
+  const selectCountry = (val) => {
+    setCountry(val);
   }
 
-  selectCountry (val) {
-    this.setState({ country: val });
-  }
-
-  render () {
-    const { country } = this.state;
-    return (
-      <div className="countrySelectorWrap">
-        <CountryDropdown className="countryselector"
-          value={country}
-          onChange={(val) => this.selectCountry(val)} defaultOptionLabel="Country" required/>
+  return (
+    <div className="countrySelectorWrap">
+        <CountryDropdown 
+        className="countryselector" 
+        value={country} 
+        onChange={(val) => selectCountry(val)} 
+        defaultOptionLabel="Country" 
+        required/>
       </div>
-    );
-  }
+  )
 }
 
 export default CountrySelector;

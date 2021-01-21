@@ -8,7 +8,7 @@ import FormWrapper from './components/Form/Form'
 import ImgWrapper from './components/Img';
 import ReactPlayer from "react-player";
 
-
+// Main app where all components are rendered from
 
 function App() {
 

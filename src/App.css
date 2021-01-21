@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Hind+Siliguri:wght@400;500;600;800&display=swap");
 * {
   padding: 0;
-  margin: 0;
-  user-select: none; }
+  margin: 0; }
 
 .App {
   background-image: url(./images/top_bkg.jpg);
@@ -63,7 +62,8 @@
           font-size: 1.2vw; }
     .App .hero .countdown {
       position: relative;
-      z-index: 2; }
+      z-index: 2;
+      user-select: none; }
       .App .hero .countdown .countdown-wrapper {
         display: flex;
         flex-direction: row;
@@ -133,12 +133,15 @@
       height: 5%;
       border-radius: 18px;
       text-transform: uppercase;
-      color: #2c4970;
+      text-decoration: none;
       font-family: "Hind Siliguri", sans-serif;
       font-size: 1.7vw;
       font-weight: 800;
       z-index: 3;
       cursor: pointer; }
+      .App .hero .button a {
+        text-decoration: none;
+        color: #2c4970; }
       .App .hero .button:active {
         transform: scale(0.98); }
   .App .countrySelectorWrap .countryselector {

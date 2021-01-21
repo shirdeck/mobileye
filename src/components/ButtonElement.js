@@ -1,8 +1,12 @@
-import styled from 'styled-components';
-import { Link } from 'react-scroll';
+//=============================================================================
+// Button Component
+//=============================================================================
 
-export const Button = styled(Link)`
+import styled from 'styled-components';
+
+export const Button = styled.a`
 border-radius: 50px;
+text-decoration: none;
 background: ${({ primary }) => (primary
 ? '#16d6fb' : '#16d6fb'
 )};

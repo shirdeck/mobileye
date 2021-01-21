@@ -1,3 +1,7 @@
+//=============================================================================
+// Form Component
+//=============================================================================
+
 // eslint-disable-next-line
 import React, {useState} from "react";
 import { FormElement, Header, FormBody, Input, Select, SubscriptionWrapper, SubCheckbox, Disclaimer, RegisterButton } from "./FormElement";
@@ -28,7 +32,7 @@ const FormWrapper = () => {
             <SubCheckbox type="checkbox" value="subscribe"/>
             <Disclaimer>Yes, I would like to subscribe to stay connected to the latest Mobileye technologies and industry trends by email and telephone. I can unsubscribe at any time.</Disclaimer>
         </SubscriptionWrapper>
-        <RegisterButton>register now</RegisterButton>
+        <RegisterButton href="/">register now</RegisterButton>
         </FormBody>
       </FormElement>
     </>

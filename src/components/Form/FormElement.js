@@ -86,11 +86,12 @@ font-size: 11px;
 width: 100%;
 `
 
-export const RegisterButton = styled.div`
+export const RegisterButton = styled.a`
 display: flex;
 justify-content: center;
 align-items: center;
 text-transform: uppercase;
+text-decoration: none;
 color: #a0a0a0;
 background-color: #16d6fb;
 color: #2c4970;
