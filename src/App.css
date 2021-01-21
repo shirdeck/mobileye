@@ -11,7 +11,7 @@
   flex-direction: column;
   justify-content: center; }
   .App .hero {
-    height: 100vh;
+    height: 106vh;
     position: relative; }
     .App .hero .bg-fill {
       position: absolute;
@@ -237,7 +237,8 @@
     .App .hero .details-box .title {
       width: 100%; }
     .App .hero .details-box .content {
-      font-size: 12px; }
+      font-size: 12px;
+      line-height: 2.7vw; }
   .App .hero .button {
     width: 45%;
     font-size: 28px; } }

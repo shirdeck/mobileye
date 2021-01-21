@@ -17,7 +17,7 @@ $turquoize: #16d6fb;
   flex-direction: column;
   justify-content: center;
   .hero {
-    height: 100vh;
+    height: 106vh;
     position: relative;
     .bg-fill {
       position: absolute;
@@ -346,6 +346,7 @@ $turquoize: #16d6fb;
         }
         .content {
           font-size: 12px;
+          line-height: 2.7vw;
         }
       }
       .button {
